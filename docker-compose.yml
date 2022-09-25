@@ -3,7 +3,7 @@ web:
   working_dir: /data
   command: python main.py
   links:
-    - db
+    - 503cb8c672c8
   volumes:
     - .:/data
   ports:
